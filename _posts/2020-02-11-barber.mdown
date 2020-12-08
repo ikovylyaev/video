@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Современный брадобрей"
+date:   2020-02-11 20:00:00 +0500
+categories: video
+---
+https://www.youtube.com/embed/9-a4pC5blsg
