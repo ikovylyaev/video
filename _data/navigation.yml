@@ -7,9 +7,6 @@
 - name: урал
   lang: ru
   link: /ru/ural/
-- name: фото
-  lang: ru
-  link: /ru/photo/
 - name: контакты
   lang: ru
   link: /ru/contact/
@@ -23,9 +20,6 @@
 - name: ural
   lang: en
   link: /en/ural/
-- name: photo
-  lang: en
-  link: /en/photo/
 - name: contact
   lang: en
   link: /en/contact/
