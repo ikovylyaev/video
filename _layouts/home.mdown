@@ -1387,7 +1387,7 @@ layout: default
     var print = '';
     
     for (var i = 0; i < photo.length; i++) {
-      print = print + '<a href="'+photo[i]['link']+'" target="_blank" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4"><img src="{{ site.url }}/img/photo/'+photo[i]['id']+'.png" style="width:100%; border-radius: 10px;" alt="{{ post.title }} - ikovylyaev"><div style="text-transform: lowercase;"><h4>'+photo[i]['name']+'</h4></div></a>';
+      print = print + '<a href="'+photo[i]['link']+'" target="_blank" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4"><img src="{{ site.url }}/img/photo/'+photo[i]['id']+'.png" style="width:100%; border-radius: 10px;" alt="'+photo[i]['name']+' - ikovylyaev"><div style="text-transform: lowercase;"><h4>'+photo[i]['name']+'</h4></div></a>';
       
     }
 	if(print!=''){
