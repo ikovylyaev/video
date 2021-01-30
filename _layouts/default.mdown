@@ -27,32 +27,29 @@
 
     <title>{{ page.title }}</title>
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Иван Ковыляев - веб-программист">
-    <meta name="description" content="Создание веб-сайтов в Санкт-Петербурге. Дизайн адаптивных и полностью кастомизируемых сайтов, использующих простую и понятную систему управления контентом. Видеопроизводство и видеосъемка.">
+    <meta name="title" content="kovylyaevdesign - graphic and ui/ux designer">
+    <meta name="description" content="{{ site.description }}">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://ikovylyaev.com/">
-    <meta property="og:title" content="Иван Ковыляев - веб-программист">
-    <meta property="og:description" content="Создание веб-сайтов в Санкт-Петербурге. Дизайн адаптивных и полностью кастомизируемых сайтов, использующих простую и понятную систему управления контентом. Видеопроизводство и видеосъемка.">
-    <meta property="og:image" content="{{ site.url }}/img/backLogo.png">
+    <meta property="og:title" content="kovylyaevdesign - graphic and ui/ux designer">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.url }}/img/back.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="http://ikovylyaev.com/">
-    <meta property="twitter:title" content="Иван Ковыляев - веб-программист">
-    <meta property="twitter:description" content="Создание веб-сайтов в Санкт-Петербурге. Дизайн адаптивных и полностью кастомизируемых сайтов, использующих простую и понятную систему управления контентом. Видеопроизводство и видеосъемка.">
-    <meta property="twitter:image" content="{{ site.url }}/img/backLogo.png">
+    <meta property="twitter:title" content="kovylyaevdesign - graphic and ui/ux designer">
+    <meta property="twitter:description" content="{{ site.description }}">
+    <meta property="twitter:image" content="{{ site.url }}/img/back.png">
     
     <meta name="google-site-verification" content="TgS-ggzsO117EW73IdP6Ma_BE4pfkBCzV-Xaa8dnBlY" />
     <meta name="yandex-verification" content="743466c05a8e5d2d" />
 
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ site.url }}/css/animate.css" rel="stylesheet">
     <link href="{{ site.url }}/css/main.css" rel="stylesheet">
-    <link href="{{ site.url }}/css/hamburgers.min.css" rel="stylesheet">
-    <link href="{{ site.url }}/css/technology-icons.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 
@@ -69,17 +66,7 @@
     <script src="{{ site.url }}/js/bootstrap.min.js"></script>
 <script type="text/javascript">
       $(document).ready(function() {
-        $("#loader").delay(1000).fadeOut(2000);
-
-        $("a").not(".btn-href").click(function(){
-          event.preventDefault();
-          linkLocation = this.href;
-          $("body").fadeOut(1000, redirectPage);
-        });
-
-        function redirectPage() {
-          window.location = linkLocation;
-        }
+        $("#loader").fadeOut(2000);
       });
 </script>
 

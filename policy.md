@@ -1,77 +1,86 @@
 ---
+title: privacy policy
 layout: page
-title: политика в отношении обработки персональных данных
-lang: ru
-permalink: /policy/
+lang: en
+permalink: "/policy/"
 ---
+
 <h1 class="disply-4 mb-3">{{ page.title }}</h1>
-<div class="alert alert-primary" role="alert">
-  ℹ️ it's russian version of document. please translate page in translator to read the privacy policy
-</div>
-<h2><strong>1. Общие положения</strong></h2>
-<p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных&nbsp;ШколаОнлайн&nbsp;(далее – Оператор).</p>
-<ol>
-<li>Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну.</li>
-<li>Настоящая политика Оператора в отношении обработки персональных данных (далее – Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта&nbsp;http://ikovylyaev.com.</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>2. Основные понятия, используемые в Политике</strong></h2>
-<ol>
-<li>Автоматизированная обработка персональных данных – обработка персональных данных с помощью средств вычислительной техники;</li>
-<li>Блокирование персональных данных – временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных);</li>
-<li>Веб-сайт – совокупность графических и информационных материалов, а также программ для&nbsp;ЭВМ&nbsp;и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу&nbsp;http://ikovylyaev.com;</li>
-<li>Информационная система&nbsp;персональных данных — совокупность содержащихся в базах данных персональных данных, и обеспечивающих их обработку информационных технологий и технических средств;</li>
-<li>Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных;</li>
-<li>Обработка персональных данных – любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных;</li>
-<li>Оператор – государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и (или) осуществляющие обработку персональных данных, а также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными;</li>
-<li>Персональные данные – любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта&nbsp;http://ikovylyaev.com;</li>
-<li>Пользователь – любой посетитель веб-сайта&nbsp;http://ikovylyaev.com;</li>
-<li>Предоставление персональных данных – действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц;</li>
-<li>Распространение персональных данных – любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом;</li>
-<li>Трансграничная передача персональных данных – передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу;</li>
-<li>Уничтожение персональных данных – любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и (или) результате которых уничтожаются материальные носители персональных данных.</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>3. Оператор может обрабатывать следующие персональные данные Пользователя</strong></h2>
-<ol>
-<li>Фамилия, имя;</li>
-<li>Электронный адрес;</li>
-<li>Также на сайте происходит сбор и обработка обезличенных данных о посетителях (в т.ч. файлов «cookie») с помощью сервисов интернет-статистики (Яндекс Метрика и Гугл Аналитика и других).</li>
-<li>Вышеперечисленные данные далее по тексту Политики объединены общим понятием Персональные данные.</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>4. Цели обработки персональных данных</strong></h2>
-<ol>
-<li>Цель обработки персональных данных Пользователя —&nbsp;предоставление доступа Пользователю к сервисам, информации и/или материалам, содержащимся на веб-сайте.</li>
-<li>Также Оператор имеет право направлять Пользователю уведомления о новых продуктах и услугах, специальных предложениях и различных событиях. Пользователь всегда может отказаться от получения информационных сообщений, направив Оператору письмо на адрес электронной почты&nbsp;policy@ikovylyaev.com&nbsp;с пометкой «Отказ от уведомлениях о новых продуктах и услугах и специальных предложениях».</li>
-<li>Обезличенные данные Пользователей, собираемые с помощью сервисов интернет-статистики, служат для сбора информации о действиях Пользователей на сайте, улучшения качества сайта и его содержания.</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>5. Правовые основания обработки персональных данных</strong></h2>
-<ol>
-<li>Оператор обрабатывает персональные данные Пользователя только в случае их заполнения и/или отправки Пользователем самостоятельно через специальные формы, расположенные на сайте&nbsp;http://ikovylyaev.com. Заполняя соответствующие формы и/или отправляя свои персональные данные Оператору, Пользователь выражает свое согласие с данной Политикой.</li>
-<li>Оператор обрабатывает обезличенные данные о Пользователе в случае, если это разрешено в настройках браузера Пользователя (включено сохранение файлов «cookie» и использование технологии&nbsp;JavaScript).</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>6. Порядок сбора, хранения, передачи и других видов обработки персональных данных</strong></h2>
-<p>Безопасность персональных данных, которые обрабатываются Оператором, обеспечивается путем реализации правовых, организационных и технических мер, необходимых для выполнения в полном объеме требований действующего законодательства в области защиты персональных данных.</p>
-<ol>
-<li>Оператор обеспечивает сохранность персональных данных и принимает все возможные меры, исключающие доступ к персональным данным неуполномоченных лиц.</li>
-<li>Персональные данные Пользователя никогда, ни при каких условиях не будут переданы третьим лицам, за исключением случаев, связанных с исполнением действующего законодательства.</li>
-<li>В случае выявления неточностей в персональных данных, Пользователь может актуализировать их самостоятельно, путем направления Оператору уведомление на адрес электронной почты Оператора&nbsp;policy@ikovylyaev.com &nbsp;с пометкой «Актуализация персональных данных».</li>
-<li>Срок обработки персональных данных является неограниченным. Пользователь может в любой момент отозвать свое согласие на обработку персональных данных, направив Оператору уведомление посредством электронной почты на электронный адрес Оператора&nbsp;policy@ikovylyaev.com&nbsp;с пометкой «Отзыв согласия на обработку персональных данных».</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>7. Трансграничная передача персональных данных</strong></h2>
-<ol>
-<li>Оператор до начала осуществления трансграничной передачи персональных данных обязан убедиться в том, что иностранным государством, на территорию которого предполагается осуществлять передачу персональных данных, обеспечивается надежная защита прав субъектов персональных данных.</li>
-<li>Трансграничная передача персональных данных на территории иностранных государств, не отвечающих вышеуказанным требованиям, может осуществляться только в случае наличия согласия в письменной форме субъекта персональных данных на трансграничную передачу его персональных данных и/или исполнения договора, стороной которого является субъект персональных данных.</li>
-</ol>
-<p>&nbsp;</p>
-<h2><strong>8. Заключительные положения</strong></h2>
-<ol>
-<li>Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки его персональных данных, обратившись к Оператору с помощью электронной почты&nbsp;policy@ikovylyaev.com.</li>
-<li>В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.</li>
-<li>Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу&nbsp;http://ikovylyaev.com/policy.</li>
-</ol>
-<p>&nbsp;</p>
+At ikovylyaev, accessible from ikovylyaev.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ikovylyaev and how we use it.
+
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ikovylyaev. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the Privacy Policy Generator and the Free Privacy Policy Generator.
+
+## Information we collect ##
+
+The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+
+If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
+
+When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
+## How we use your information##
+
+We use the information we collect in various ways, including to:
+
+*     Provide, operate, and maintain our webste
+*     Improve, personalize, and expand our webste
+*     Understand and analyze how you use our webste
+*     Develop new products, services, features, and functionality
+*     Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes
+*     Send you emails
+*     Find and prevent fraud
+
+## Log Files ##
+
+ikovylyaev follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+## Cookies and Web Beacons ##
+
+Like any other website, ikovylyaev uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.
+
+For more general information on cookies, please read "What Are Cookies" from Cookie Consent.
+## Advertising Partners Privacy Policies##
+
+You may consult this list to find the Privacy Policy for each of the advertising partners of ikovylyaev.
+
+Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on ikovylyaev, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+
+Note that ikovylyaev has no access to or control over these cookies that are used by third-party advertisers.
+## Third Party Privacy Policies##
+
+ikovylyaev's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+
+You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+## CCPA Privacy Rights (Do Not Sell My Personal Information)##
+
+Under the CCPA, among other rights, California consumers have the right to:
+
+Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
+
+Request that a business delete any personal data about the consumer that a business has collected.
+
+Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+## GDPR Data Protection Rights##
+
+We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+
+The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
+
+The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
+
+The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
+
+The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
+
+The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
+
+The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+## Children's Information##
+
+Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
+
+ikovylyaev does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
