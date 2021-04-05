@@ -1378,6 +1378,26 @@ layout: default
     "date" : "05.01.2021",
     "common" : false
   },
+  {
+    "id": 134,
+    "year" : "2021",
+    "month" : "04",
+    "day" : "03",
+    "name" : "Питер 03.04",
+    "link" : "https://disk.yandex.ru/d/zSzR7KiejDm-HQ",
+    "date" : "03.04.2021",
+    "common" : false
+  },
+  {
+    "id": 135,
+    "year" : "2021",
+    "month" : "04",
+    "day" : "04",
+    "name" : "Питер 04.04",
+    "link" : "https://disk.yandex.ru/d/88BJ1EiCR8OSEA",
+    "date" : "04.04.2021",
+    "common" : false
+  },
 
 ];
   $(document).ready(function(){
