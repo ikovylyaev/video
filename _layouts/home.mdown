@@ -1438,7 +1438,16 @@ layout: default
     "date" : "09.05.2021",
     "common" : false
   },
-
+  {
+    "id": 140,
+    "year" : "2021",
+    "month" : "06",
+    "day" : "03",
+    "name" : "Санкт-Петербург общие",
+    "link" : "https://disk.yandex.ru/d/5QXlJjQ20cgDpA",
+    "date" : "03.06.2021",
+    "common" : false
+  },
 ];
   $(document).ready(function(){
     photo = photo.sort(function(a, b){return a.year - b.year});
