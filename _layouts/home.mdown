@@ -1309,66 +1309,6 @@ layout: default
     "common" : false
   },
   {
-    "id": 127,
-    "year" : "2020",
-    "month" : "09",
-    "day" : "12",
-    "name" : "Санкт-Петербург",
-    "link" : "https://yadi.sk/d/LsO1-CkPlbF1ng",
-    "date" : "12.09.2020",
-    "common" : false
-  },
-  {
-    "id": 128,
-    "year" : "2020",
-    "month" : "09",
-    "day" : "13",
-    "name" : "Санкт-Петербург",
-    "link" : "https://yadi.sk/d/yNbHtEt0SRJ2jA",
-    "date" : "13.09.2020",
-    "common" : false
-  },
-  {
-    "id": 129,
-    "year" : "2020",
-    "month" : "09",
-    "day" : "20",
-    "name" : "Санкт-Петербург",
-    "link" : "https://yadi.sk/d/mGUe5jJs6zf2ng",
-    "date" : "20.09.2020",
-    "common" : false
-  },
-  {
-    "id": 130,
-    "year" : "2020",
-    "month" : "10",
-    "day" : "04",
-    "name" : "Выборг",
-    "link" : "https://yadi.sk/d/gxyvE1-xutvHgA",
-    "date" : "04.10.2020",
-    "common" : false
-  },
-  {
-    "id": 131,
-    "year" : "2020",
-    "month" : "10",
-    "day" : "08",
-    "name" : "Санкт-Петербург",
-    "link" : "https://yadi.sk/d/WS0lJ4-tiwC9YQ",
-    "date" : "08.10.2020",
-    "common" : false
-  },
-  {
-    "id": 132,
-    "year" : "2020",
-    "month" : "10",
-    "day" : "10",
-    "name" : "Санкт-Петербург",
-    "link" : "https://yadi.sk/d/NRWWiKHSi1cXKQ",
-    "date" : "10.10.2020",
-    "common" : false
-  },
-  {
     "id": 133,
     "year" : "2021",
     "month" : "01",
@@ -1379,71 +1319,11 @@ layout: default
     "common" : false
   },
   {
-    "id": 134,
-    "year" : "2021",
-    "month" : "04",
-    "day" : "03",
-    "name" : "Питер 03.04",
-    "link" : "https://disk.yandex.ru/d/zSzR7KiejDm-HQ",
-    "date" : "03.04.2021",
-    "common" : false
-  },
-  {
-    "id": 135,
-    "year" : "2021",
-    "month" : "04",
-    "day" : "04",
-    "name" : "Питер 04.04",
-    "link" : "https://disk.yandex.ru/d/88BJ1EiCR8OSEA",
-    "date" : "04.04.2021",
-    "common" : false
-  },
-  {
-    "id": 136,
-    "year" : "2021",
-    "month" : "04",
-    "day" : "11",
-    "name" : "Питер 11.04",
-    "link" : "https://disk.yandex.ru/d/p-KqLhkNcvsrNQ",
-    "date" : "11.04.2021",
-    "common" : false
-  },
-  {
-    "id": 137,
-    "year" : "2021",
-    "month" : "04",
-    "day" : "15",
-    "name" : "Питер 15.04",
-    "link" : "https://disk.yandex.ru/d/GcJzicozbIFVHw",
-    "date" : "15.04.2021",
-    "common" : false
-  },
-  {
-    "id": 138,
-    "year" : "2021",
-    "month" : "04",
-    "day" : "18",
-    "name" : "Питер 18.04",
-    "link" : "https://disk.yandex.ru/d/az4GwJO4vj_n3w",
-    "date" : "18.04.2021",
-    "common" : false
-  },
-  {
-    "id": 139,
-    "year" : "2021",
-    "month" : "05",
-    "day" : "09",
-    "name" : "Питер 09.05",
-    "link" : "https://disk.yandex.ru/d/uKKEG2XixipL7w",
-    "date" : "09.05.2021",
-    "common" : false
-  },
-  {
     "id": 140,
     "year" : "2021",
     "month" : "06",
     "day" : "03",
-    "name" : "Санкт-Петербург общие",
+    "name" : "Санкт-Петербург",
     "link" : "https://disk.yandex.ru/d/5QXlJjQ20cgDpA",
     "date" : "03.06.2021",
     "common" : false
