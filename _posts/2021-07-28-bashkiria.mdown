@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "башкирия 2021"
+date:   2021-07-28 20:00:00 +0500
+categories: video
+number: 20
+video: RmWiA65rB2Q
+---
