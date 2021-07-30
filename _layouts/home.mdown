@@ -1328,6 +1328,16 @@ layout: default
     "date" : "03.06.2021",
     "common" : false
   },
+  {
+    "id": 141,
+    "year" : "2021",
+    "month" : "07",
+    "day" : "28",
+    "name" : "Башкирия",
+    "link" : "https://disk.yandex.ru/d/8eqC8bKpC-3ofQ",
+    "date" : "28.07.2021",
+    "common" : false
+  },
 ];
   $(document).ready(function(){
     photo = photo.sort(function(a, b){return a.year - b.year});
