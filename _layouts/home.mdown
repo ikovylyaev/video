@@ -1338,6 +1338,16 @@ layout: default
     "date" : "28.07.2021",
     "common" : false
   },
+  {
+    "id": 142,
+    "year" : "2021",
+    "month" : "08",
+    "day" : "19",
+    "name" : "Верхотурье",
+    "link" : "https://disk.yandex.ru/d/I5dNwAbRG2Zb6w",
+    "date" : "19.08.2021",
+    "common" : false
+  },
 ];
   $(document).ready(function(){
     photo = photo.sort(function(a, b){return a.year - b.year});
