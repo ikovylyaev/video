@@ -34,10 +34,9 @@ layout: default
 	  {% endfor %}
 	  <h2 class='col-12 mt-5 mb-3'>фото</h2>
 	  <div id='images_blog' class='col-12 row'></div>
-	  <script type="module" src="{{site.url}}/js/data.json"></script>
+	  <script type="text/application" src="{{site.url}}/js/data.json"></script>
 
-	  <script type="module">
-  import photos from '{{site.url}}/js/data.json';
+	  <script type="text/application">
 
   $(document).ready(function(){
     photo = photo.sort(function(a, b){return a.year - b.year});
