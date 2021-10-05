@@ -1,4 +1,4 @@
-var photo = [
+"photos": [
   {
     "id": 0,
     "year" : "2015",
