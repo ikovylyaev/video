@@ -1308,5 +1308,7 @@ var photo = [
     "link" : "https://disk.yandex.ru/d/I5dNwAbRG2Zb6w",
     "date" : "19.08.2021",
     "common" : false
-  },
-]
+  }
+];
+
+console.log(photo.slice(0, 10));
