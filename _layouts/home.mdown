@@ -37,9 +37,10 @@ layout: default
 
 	  <script type="text/javascript">
 console.log('ok1');
+		  const photo = require('{{site.url}}/js/data.json');
   $(document).ready(function(){
 		  console.log('ok2');
-    const photo = require('{{site.url}}/js/data.json');
+    
 		  console.log('point1');
 		  console.log(photo);
     photo = photo.sort(function(a, b){return a.year - b.year});
