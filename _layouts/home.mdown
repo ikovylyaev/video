@@ -42,7 +42,7 @@ layout: default
         		dataType: "json",
         		success: function(data) {
             			console.log(data);
-            			data = data.photo.sort();
+            			data = data.photo.sort(function(a, b){return a.year - b.year});
    	    data = data.reverse();
 	    const print = '';
 	    $.each(data.photo,function(i,emp){
