@@ -34,11 +34,11 @@ layout: default
 	  {% endfor %}
 	  <h2 class='col-12 mt-5 mb-3'>фото</h2>
 	  <div id='images_blog' class='col-12 row'></div>
-	  <script type="text/application" src="{{site.url}}/js/data.js"></script>
 
 	  <script type="text/application">
 
   $(document).ready(function(){
+    const photo = require('{{site.url}}/js/data.json');
     photo = photo.sort(function(a, b){return a.year - b.year});
     photo = photo.reverse();
     var year = photo[0]['year'];
