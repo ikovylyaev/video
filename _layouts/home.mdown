@@ -36,13 +36,13 @@ layout: default
 	  <div id='images_blog' class='col-12 row'></div>
 
 	  <script type="text/javascript">
-console.log('ok1');
-		  const photo = require('{{site.url}}/js/data.json');
+
   $(document).ready(function(){
-		  console.log('ok2');
-    
-		  console.log('point1');
-		  console.log(photo);
+	$.getJSON('{{ site.url}}/js/data.json',function(data){
+            console.log('success');
+        }).error(function(){
+            console.log('error');
+        });
     photo = photo.sort(function(a, b){return a.year - b.year});
 		  console.log('point2');
 		  console.log(photo);
