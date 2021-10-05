@@ -37,7 +37,7 @@ layout: default
 
 	  <script type="text/javascript">
 
-  $(document).ready(function(){
+  $(function(){
 	$.getJSON('{{ site.url}}/js/data.json',function(data){
             console.log('success');
 	    photo = photo.sort(function(a, b){return a.year - b.year});
