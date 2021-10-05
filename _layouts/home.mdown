@@ -37,7 +37,7 @@ layout: default
 	  <script type="module" src="{{site.url}}/js/data.json"></script>
 
 	  <script type="module">
-  var photo = JSON.parse(photos);
+  import photos from '{{site.url}}/js/data.json';
 
   $(document).ready(function(){
     photo = photo.sort(function(a, b){return a.year - b.year});
