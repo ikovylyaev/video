@@ -40,28 +40,18 @@ layout: default
   $(document).ready(function(){
 	$.getJSON('{{ site.url}}/js/data.json',function(data){
             console.log('success');
+	    photo = photo.sort(function(a, b){return a.year - b.year});
+   	    photo = photo.reverse();
+    	    const year = photo[0]['year'];
+	    const print = '';
+	    $.each(data.employees,function(i,emp){
+                print = '<a href="'+photo[i]['link']+'" target="_blank" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4"><img src="{{ site.url }}/img/photo/'+photo[i]['id']+'.png" style="width:100%; border-radius: 10px;" alt="'+photo[i]['name']+' - ikovylyaev"><div style="text-transform: lowercase;"><h4>'+photo[i]['name']+'</h4></div></a>';
+      $("#images_blog").append(print);
+            });
         }).error(function(){
             console.log('error');
         });
-    photo = photo.sort(function(a, b){return a.year - b.year});
-		  console.log('point2');
-		  console.log(photo);
-    photo = photo.reverse();
-		  console.log('point3');
-		  console.log(photo);
-    var year = photo[0]['year'];
-		  console.log('point4');
-		  console.log(photo);
-    var print = '';
-    
-    for (var i = 0; i < photo.length; i++) {
-      print = '<a href="'+photo[i]['link']+'" target="_blank" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4"><img src="{{ site.url }}/img/photo/'+photo[i]['id']+'.png" style="width:100%; border-radius: 10px;" alt="'+photo[i]['name']+' - ikovylyaev"><div style="text-transform: lowercase;"><h4>'+photo[i]['name']+'</h4></div></a>';
-      $("#images_blog").append(print);
-      
-    }
-	if(print === ''){
-    	$("#images_blog").empty().html("<div class='d-flex col-12 align-items-center'><strong>there are some errors in our code...  try to reload page</strong><div class='spinner-border ml-auto' role='status' aria-hidden='true'></div></div>");
-    }
+   
   })
 </script>
 </section>
