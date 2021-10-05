@@ -42,9 +42,8 @@ layout: default
         		dataType: "json",
         		success: function(data) {
             			console.log(data);
-            			data = data.sort(function(a, b){return a.year - b.year});
+            			data = data.sort();
    	    data = data.reverse();
-    	    const year = data[0].year;
 	    const print = '';
 	    $.each(data.photo,function(i,emp){
                 print = '<a href="'+data[i].link+'" target="_blank" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4"><img src="{{ site.url }}/img/photo/'+data[i].id+'.png" style="width:100%; border-radius: 10px;" alt="'+data[i].name+' - ikovylyaev"><div style="text-transform: lowercase;"><h4>'+data[i].name+'</h4></div></a>';
