@@ -35,9 +35,10 @@ layout: default
 	  <h2 class='col-12 mt-5 mb-3'>фото</h2>
 	  <div id='images_blog' class='col-12 row'></div>
 
-	  <script type="text/application">
-
+	  <script type="text/javascript">
+console.log('ok1');
   $(document).ready(function(){
+		  console.log('ok2');
     const photo = require('{{site.url}}/js/data.json');
 		  console.log('point1');
 		  console.log(photo);
