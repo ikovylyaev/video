@@ -45,7 +45,6 @@ $(document).ready(function () {
         data.sort(function (a, b) {
           return b.year - a.year;
         });
-	data.reverse();
         let print = "";
         $.each(data, function (i, emp) {
           print =
