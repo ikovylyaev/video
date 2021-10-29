@@ -26,7 +26,7 @@ layout: default
 	  <h2 class='col-12 mb-3'>видео</h2>
 	  {% for post in site.categories.video %}
 		<a href='https://www.youtube.com/watch?v={{ post.video }}' target="_blank" class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-4'>
-			<img class="lazy" data-src="{{ site.url }}/img/title/{{ post.number }}.png" style='width:100%; border-radius: 10px;' alt="{{ post.title }} - ikovylyaev">
+			<img src="{{ site.url }}/img/title/{{ post.number }}.png" style='width:100%; border-radius: 10px;' alt="{{ post.title }} - ikovylyaev">
 			<div style="text-transform: lowercase;">
 				<h4>{{ post.title }}</h4>
 			</div>
