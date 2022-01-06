@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Скалы Петра Гронского"
+date:   2022-01-06 20:00:00 +0500
+categories: video
+number: 23
+video: xx_qhSXj0x8
+---
