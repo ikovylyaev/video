@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Скалы Семь братьев"
+date:   2022-01-08 20:00:00 +0500
+categories: video
+number: 24
+video: x4DDICTBqFk
+---
