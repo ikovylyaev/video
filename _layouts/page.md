@@ -36,9 +36,6 @@ layout: default
 		    <a class="nav-link" href="http://vk.com/ikovylyaev"><i class="fab fa-vk"></i></a>
 		   </li>
 		   <li class="nav-item">
-		    <a class="nav-link" href="http://instagram.com/ikovylyaev"><i class="fab fa-instagram"></i></a>
-		   </li>
-		   <li class="nav-item">
 	            <a class="nav-link" style="color: #fff;" href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw"><i class="fab fa-youtube"></i></a>
 	           </li>
 		   <li class="nav-item">
