@@ -1,10 +1,5 @@
 ---
 layout: home
-title: Главная / Ru
-
-lang: ru
-text-title-nav: Иван Ковыляев
-text-title: Привет!
-text-description: Я специализируюсь на дизайне адаптивных и полностью кастомизируемых сайтов, использующих простую и понятную систему управления контентом.
+title: kovylyaevmedia repo
 ---
 
