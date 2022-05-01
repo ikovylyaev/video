@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 body{
 	background: #000;
 	color: #fff;
 	font-weight: 400!important;
 	padding: 20px;
-	font-family: "PT Sans", sans-serif!important;
+	font-family: "IBM Plex Sans", sans-serif!important;
 }
 .nav-link{
 	color: #fff!important;
