@@ -1348,6 +1348,36 @@
     "link": "https://disk.yandex.ru/d/fJhMREfa-yI_qA",
     "date": "22.05.2022",
     "common": false
+  },
+  {
+    "id": 147,
+    "year": "2022",
+    "month": "01",
+    "day": "14",
+    "name": "Прогулка",
+    "link": "https://disk.yandex.ru/d/1yzQp1xm3njs9A",
+    "date": "14.01.2022",
+    "common": false
+  },
+  {
+    "id": 148,
+    "year": "2022",
+    "month": "01",
+    "day": "31",
+    "name": "Шайтан-камень",
+    "link": "https://disk.yandex.ru/d/4TbH8SRjXe69QA,
+    "date": "31.01.2022",
+    "common": false
+  },
+  {
+    "id": 149,
+    "year": "2022",
+    "month": "08",
+    "day": "31",
+    "name": "Лето 2022",
+    "link": "https://disk.yandex.ru/d/eXtAkTPuKRKojw,
+    "date": "31.08.2022",
+    "common": false
   }
   
 ]
