@@ -83,6 +83,7 @@ a:hover {
 @media (max-width: 767px){
 	.nav-link{
 		padding: 0 0.5rem!important;
+		opacity: 1!important;
 	}
 	.terms-block{
 		position: static;
