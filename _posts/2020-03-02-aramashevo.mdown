@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "деревня Арамашево"
+title:  "Деревня Арамашево"
 date:   2020-03-02 20:00:00 +0500
-categories: ural
+categories: video
 number: 9
 video: 0NagNGVHM-o
 ---

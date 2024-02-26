@@ -57,8 +57,9 @@ a:hover {
 		bottom: 0px;
 		padding: 35px;
 		left: 0px;
-		font-size: 0.75em;
+		font-size: 0.5em;
 		background: #000;
+		max-width: 15vw;
 	}
 	.terms-block p{
 		margin: 0px;

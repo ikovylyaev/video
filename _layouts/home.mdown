@@ -5,20 +5,20 @@ layout: default
 	<div class="row">
 		<div class="col-md-6 col-12">
 			<nav class="nav">
-				<a class="nav-link" aria-current="page" style='padding-left: 0px;' href="https://vk.com/ikovylyaev">vkontakte</a>
+				<a class="nav-link" aria-current="page" style='padding-left: 0px;' href="https://vk.com/ikovylyaev">ВК</a>
 				<p class="nav-link disabled" tabindex="-1" aria-disabled="true">/</p>
-				<a class="nav-link" aria-current="page" href="https://behance.com/ikovylyaev">behance</a>
+				<a class="nav-link" aria-current="page" href="https://behance.com/ikovylyaev">Беханс</a>
 				<p class="nav-link disabled" tabindex="-1" aria-disabled="true">/</p>
-				<a class="nav-link" aria-current="page" href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw">youtube</a>
+				<a class="nav-link" aria-current="page" href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw">Ютьюб</a>
 				<p class="nav-link disabled" tabindex="-1" aria-disabled="true">/</p>
-				<a class="nav-link" aria-current="page" href="https://500px.com/azimytfoto">500px</a>
+				<a class="nav-link" aria-current="page" href="https://500px.com/azimytfoto">500пикс</a>
 			</nav>
 		</div>
 		<div class="col-md-6 col-12">
 			<nav class="nav" id="right-nav">
-        <a class="nav-link" aria-current="page" href="{{ site.url }}" style='padding-left: 0px;'>design</a>
+        <a class="nav-link" aria-current="page" href="{{ site.url }}" style='padding-left: 0px;'>Дизайн</a>
 				<p class="nav-link disabled" tabindex="-1" aria-disabled="true">/</p>
-				<a class="nav-link active" aria-current="page" href="http://video.ikovylyaev.com/">video</a>
+				<a class="nav-link active" aria-current="page" href="http://video.ikovylyaev.com/">Видео</a>
 			</nav>
 		</div>
 	</div>
@@ -30,7 +30,7 @@ layout: default
 			</div>
 		</nav>
   <div class="row my-5" >
-    <div class='col-md-2 col-12'><h2 class='sticky-top'>видео</h2></div>
+    <div class='col-md-2 col-12'><h2 class='sticky-top'>Видео</h2></div>
     <div class='col-md-10 col-12'>
       <div class='row'>
         {% for post in site.categories.video %}
@@ -40,9 +40,9 @@ layout: default
             <h4>{{ post.title }}</h4>
           </div>
         </a>-->
-        <a href='https://www.youtube.com/watch?v={{ post.video }}' target="_blank" class='col-12 col-md-6 col-xl-4' style='background: url({{ site.url }}/img/title/{{ post.number }}.png); background-size: cover; height: 30vh; padding: 0px; background-position: center;'>
-          <div style="text-transform: lowercase; width: 100%; height: 30vh; background: rgba(0,0,0,0.6); padding: 25px;">
-            <div style='position: absolute; bottom: 25px; left: 25px;'>
+        <a href='https://www.youtube.com/watch?v={{ post.video }}' target="_blank" class='col-12 col-md-6 col-xl-4' style='background: url({{ site.url }}/img/title/{{ post.number }}.png); background-size: cover; height: 30vh; min-height: 200px; padding: 0px; background-position: center;'>
+          <div style="width: 100%; height: 30vh; min-height: 200px; background: rgba(0,0,0,0.6); padding: 25px;">
+            <div style='position: absolute; bottom: 25px; left: 25px; right: 25px;'>
               <small>{{ post.date | date: "%d.%m.%Y" }}</small>
               <h4 style='margin: 0px;'>{{ post.title }}</h4>
             </div>
@@ -53,14 +53,14 @@ layout: default
     </div>
   </div>
   <div class="row my-5" >
-    <div class='col-md-2 col-12'><h2 class='sticky-top'>фото</h2></div>
+    <div class='col-md-2 col-12'><h2 class='sticky-top'>Фото</h2></div>
     <div class='col-md-10 col-12'>
       <div id='images_blog' class='row'></div>
     </div>
   </div>
 	<div class="terms-block">
-		<p>design: <a href="http://ikovylyaev.com">ikovylyaev</a></p>
-		<a href="{{site.url}}/terms">terms of use</a><br><a href="{{site.url}}/privacy">privacy policy</a>
+		<p>Дизайн: <a href="http://ikovylyaev.com">ikovylyaev</a></p>
+		<a href="{{site.url}}/terms">Правила использования</a><br><a href="{{site.url}}/privacy">Политика конфиденциальности</a>
 	</div>
 </div>
 
@@ -81,7 +81,7 @@ $(document).ready(function () {
             data[i].link +
             '" target="blank"  class="col-12 col-md-6 col-xl-4" style="background: url({{ site.url }}/img/photo/' +
             data[i].id +
-            '.png); background-size: cover; height: 30vh; padding: 0px; background-position: center;"><div style="text-transform: lowercase; width: 100%; height: 30vh; background: rgba(0,0,0,0.6); padding: 25px;"> <div style="position: absolute; bottom: 25px; left: 25px; right: 25px;"><small>' +
+            '.png); background-size: cover; height: 30vh; min-height: 200px; padding: 0px; background-position: center;"><div style="width: 100%; height: 30vh; min-height: 200px; background: rgba(0,0,0,0.6); padding: 25px;"> <div style="position: absolute; bottom: 25px; left: 25px; right: 25px; width: calc(100%-50px); max-width: 100%;"><small>' +
             data[i].date +
             '</small><h4 style="margin: 0px;">' +
             data[i].name +
