@@ -16,19 +16,31 @@ layout: default
 		</div>
 		<div class="col-md-6 col-12">
 			<nav class="nav" id="right-nav">
-        <a class="nav-link" aria-current="page" href="{{ site.url }}" style='padding-left: 0px;'>Дизайн</a>
+        <a class="nav-link" aria-current="page" href="https://ikovylyaev.com/" style='padding-left: 0px;'>Дизайн</a>
 				<p class="nav-link disabled" tabindex="-1" aria-disabled="true">/</p>
-				<a class="nav-link active" aria-current="page" href="http://video.ikovylyaev.com/">Видео</a>
+				<a class="nav-link active" aria-current="page" href="{{site.url}}">Видео</a>
 			</nav>
 		</div>
 	</div>
 		<nav class="navbar navbar-dark navbar-expand row">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="http://video.ikovylyaev.com"><b>kovylyaev</b>media repo</a>
+				<a class="navbar-brand" href="{{site.url}}"><b>kovylyaev</b>media repo</a>
 				<ul class="navbar-nav d-flex">
 				</ul>
 			</div>
 		</nav>
+  <!----<div class='row'>
+    <div class='col-12'>
+      <div class='video'>
+        <p><b>kovylyaev</b>media repo</p>
+        <div class="page-video">
+          <video playsinline autoplay muted loop>
+            <source src="{{site.url}}/img/video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>--->
   <div class="row my-5" >
     <div class='col-md-2 col-12'><h2 class='sticky-top'>Видео</h2></div>
     <div class='col-md-10 col-12'>
@@ -60,7 +72,7 @@ layout: default
   </div>
 	<div class="terms-block">
 		<p>Дизайн: <a href="http://ikovylyaev.com">ikovylyaev</a></p>
-		<a href="{{site.url}}/terms">Правила использования</a><br><a href="{{site.url}}/privacy">Политика конфиденциальности</a>
+		<a href="{{site.url}}/privacy">Политика конфиденциальности</a>
 	</div>
 </div>
 

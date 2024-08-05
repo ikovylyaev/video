@@ -51,7 +51,52 @@ a:hover {
 }
 
 @media (min-width: 768px){
-	
+	.video{
+		width: 100%;
+		height: 70vh;
+		position: relative;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	.page-video {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	  }
+	   
+	  .page-video:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background: rgba(10, 10, 10, 0.5);
+	  }
+	   
+	  .page-video .video {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		min-width: 100%;
+		min-height: 100%;
+	  }
+	.video p{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: 20;
+		font-size: 3em;
+	}
 	.terms-block{
 		position: fixed;
 		bottom: 0px;
